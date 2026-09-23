@@ -17,7 +17,7 @@ pub struct I2cBus {
     /// User-defined aliases for the bus.
     #[serde(default)]
     pub aliases: Vec<String>,
-    /// List of possible MCU I2C peripherals usable for this bus.
+    /// List of possible MCU I2C controller peripherals usable for this bus.
     #[serde(default)]
     pub possible_peripherals: Vec<String>,
 }

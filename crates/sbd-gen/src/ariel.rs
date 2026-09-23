@@ -168,7 +168,7 @@ pub fn render_ariel_board_crate(sbd: &SbdFile) -> Result<FileMap> {
                 target_builder.provides.insert("has_buttons".into());
             }
             if target.has_i2c_bus() {
-                target_builder.provides.insert("has_i2c".into());
+                target_builder.provides.insert("has_i2c_bus".into());
             }
             if target.has_host_facing_uart() {
                 target_builder

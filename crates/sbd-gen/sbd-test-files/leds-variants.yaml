@@ -1,4 +1,4 @@
-version: 0.4.1
+version: 0.4.2
 description: sbd test file for LED variants
 targets:
   board-with-lots-of-leds:
